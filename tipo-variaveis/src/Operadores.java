@@ -82,5 +82,52 @@ public class Operadores {
      */
 
     System.out.println(resutado);
+
+    // operadores relacionais
+
+    int numero1 = 10;
+    int numero2 = 20;
+
+    boolean resultado1 = numero1 == numero2;
+
+    System.out.println(resultado1);
+
+    resultado1 = numero1 != numero2;
+
+    System.out.println(resultado1);
+
+    resultado1 = numero1 > numero2;
+
+    System.out.println(resultado1);
+
+    resultado1 = numero1 < numero2;
+
+    System.out.println(resultado1);
+
+    resultado1 = numero1 >= numero2;
+
+    System.out.println(resultado1);
+
+    resultado1 = numero1 <= numero2;
+
+    System.out.println(resultado1);
+
+    // operadores lógicos
+
+    boolean condicao1 = true;
+    boolean condicao2 = false;
+
+    if (condicao1 && condicao2) {
+      System.out.println("Verdadeiro1");
+    } else {
+      System.out.println("Falso1");
+    }
+
+    if (condicao1 || condicao2) {
+      System.out.println("Verdadeiro2");
+    } else {
+      System.out.println("Falso2");
+    }
+
   }
 }
