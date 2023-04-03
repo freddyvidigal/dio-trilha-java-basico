@@ -1,47 +1,86 @@
+import java.sql.Date;
+
 public class Operadores {
-    
-    public static void main(String[] args) {
-        // operadores de atribuição
-        String nome = "frederico";
-        int idade = 38;
-        double peso = 155.6;
-        char sexo = 'M';
-        boolean doadorOrgao = false;
-        Date dataNascimento = new Date(0);
-        
 
-        System.out.println("Meu nome é " +nome+ ", tenho " +idade+ " anos, peso " +peso+ " kg, sou do sexo " +sexo+ ", sou doador de orgãos? " +doadorOrgao+ " e nasci em " +dataNascimento);
+  public static void main(String[] args) {
+    // operadores de atribuição
+    String nome = "frederico";
+    int idade = 38;
+    double peso = 155.6;
+    char sexo = 'M';
+    boolean doadorOrgao = false;
+    Date dataNascimento = new Date(0);
 
-        // operadores aritméticos
+    System.out.println("Meu nome é " + nome + ", tenho " + idade + " anos, peso " + peso + " kg, sou do sexo " + sexo
+        + ", sou doador de orgãos? " + doadorOrgao + " e nasci em " + dataNascimento);
 
-        double soma = 10.5 + 15.7;
-        int subtracao = 113 - 25;
-        int multiplicacao = 20 * 7;
-        int divisao = 15 / 3;
-        int modulo = 15 % 3;
-        double resultado = (10 * 7) + (20/4);
+    // operadores aritméticos
 
-        System.out.println(" A Soma: " +soma+ ", A Subtração: " +subtracao+ ", A Multiplicação: " +multiplicacao+ ", A Divisão: " +divisao+ ", O Módulo: " +modulo+ ", O Resultado: " +resultado);
+    double soma = 10.5 + 15.7;
+    int subtracao = 113 - 25;
+    int multiplicacao = 20 * 7;
+    int divisao = 15 / 3;
+    int modulo = 15 % 3;
+    double resultado = (10 * 7) + (20 / 4);
 
-        // operadores de incremento e decremento
+    System.out.println(" A Soma: " + soma + ", A Subtração: " + subtracao + ", A Multiplicação: " + multiplicacao
+        + ", A Divisão: " + divisao + ", O Módulo: " + modulo + ", O Resultado: " + resultado);
 
-      /*  int numero = 10;
+    // operadores de incremento e decremento
 
-        numero = - numero;
+    /*
+     * int numero = 10;
+     * 
+     * numero = - numero;
+     * 
+     * System.out.println(numero);
+     * 
+     * numero = numero * -1;
+     * 
+     * System.out.println(numero);
+     */
 
-        System.out.println(numero);
+    // repetiçãa
 
-        numero = numero * -1;
+    int numero = 5;
 
-        System.out.println(numero);*/ 
+    System.out.println(--numero);
 
-        //repetiçã
-        
-        int numero = 5;
+    int num = 5;
 
+    num = -num;
 
-        System.out.println(++ numero); 
+    System.out.println(num);
 
+    num = num * -1;
 
-    }
+    System.out.println(num);
+
+    int numeral = 7;
+
+    numeral = numeral + 1;
+
+    System.out.println(numeral);
+
+    // operadores tenarios
+
+    int a, b;
+
+    a = 6;
+    b = 6;
+
+    String resutado = a == b ? "verdadeiro" : "falso"; // tenario
+
+    // usando o if e else
+
+    /*
+     * if (a == b) {
+     * resutado = "verdadeiro";
+     * } else {
+     * resutado = "falso";
+     * }
+     */
+
+    System.out.println(resutado);
+  }
 }
